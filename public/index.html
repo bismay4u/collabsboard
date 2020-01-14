@@ -56,7 +56,10 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#"><b>COLLABS</b>Board 1.0</a>
-                <label class='label label-danger' style='margin: 17px;display: inline-block;font-size: 1em;' title='This is the BoardID, that is used to secure your boards while collaboration.'><i class="fa fa-shield"></i> <span id='boardID'></span></label>
+                <label class='label label-danger' style='margin: 17px;display: inline-block;font-size: 1em;' title='This is the BoardID, that is used to secure your boards while collaboration.'>
+                    <i class="fa fa-shield"></i> <span id='boardID'></span> 
+                </label>
+                <a class="actionBtn" href="#" data-cmd="connectToRemoteBoard" style="margin-left: -12px;font-size: 25px;color: #333;"><i class="fa fa-plug"></i></a>
             </div>
             <!-- /.navbar-header -->
 
@@ -66,12 +69,12 @@
                         <i class="fa fa-refresh"></i>
                     </a>
                 </li>
-                <li>
-                    <a class='actionBtn' href="#" data-cmd = 'connectToRemoteBoard'>
-                        <i class="fa fa-plug"></i>
-                    </a>
-                </li>
+                
                 <div class='d-none hidden'>
+                <li>
+                    <a class='actionBtn' href="#" data-cmd = 'connectToRemoteBoard'><i class="fa fa-plug"></i></a>
+                </li>
+
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                         <i class="fa fa-envelope fa-fw"></i> <i class="fa fa-caret-down"></i>

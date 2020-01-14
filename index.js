@@ -10,7 +10,7 @@ const host = '0.0.0.0'
 app.use(express.static(path.join(__dirname, 'public')))
 app.use('/files', express.static(path.join(__dirname, 'files')))
 
-// app.get('/', (req, res) => {
+// app.get('/api', (req, res) => {
 //     res.send('Hello World!')
 // })
 
