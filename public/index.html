@@ -40,8 +40,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
 
     <!-- System JavaScript -->
+    <script src="dist/js/brush.js"></script>
+    <script src="dist/js/toolbar.js"></script>
     <script src="dist/js/script.js"></script>
-
+    <script src="dist/js/client.js"></script>
+    
 </head>
 
 <body>
@@ -63,13 +66,15 @@
             </div>
             <!-- /.navbar-header -->
 
-            <ul class="nav navbar-top-links navbar-right">
+            <ul id='toolbar-top' class="nav navbar-top-links navbar-right">
                 <li>
                     <a class='actionBtn' href="#" data-cmd = 'clearCanvas'>
                         <i class="fa fa-refresh"></i>
                     </a>
                 </li>
+
                 
+
                 <div class='d-none hidden'>
                 <li>
                     <a class='actionBtn' href="#" data-cmd = 'connectToRemoteBoard'><i class="fa fa-plug"></i></a>
