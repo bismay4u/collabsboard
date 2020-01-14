@@ -9,6 +9,10 @@
     },
     "author": "Bismay [bismay@smartinfologiks.com]",
     "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bismay4u/collabsboard.git"
+    },
     "dependencies": {
         "express": "^4.17.1",
         "lodash": "^4.17.15",
