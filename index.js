@@ -4,8 +4,8 @@ const app = express()
 var http = require('http').createServer(app)
 var io = require('socket.io')(http)
 
-const port = 9999
-const host = '0.0.0.0'
+const port = 9171
+const host = 'localhost'
 
 app.use(express.static(path.join(__dirname, 'public')))
 app.use('/files', express.static(path.join(__dirname, 'files')))
