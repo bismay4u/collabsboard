@@ -14,7 +14,7 @@
         "url": "git+https://github.com/bismay4u/collabsboard.git"
     },
     "dependencies": {
-        "express": "^4.17.2",
+        "express": "^4.17.3",
         "lodash": "^4.17.21",
         "socket.io": "^2.4.1"
     }
